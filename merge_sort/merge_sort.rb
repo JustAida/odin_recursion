@@ -1,5 +1,3 @@
-require "pry-byebug"
-
 def merge_sort(array)
   return array if array.size < 2
 
@@ -31,6 +29,5 @@ def merge_sort(array)
   sorted_array
 end
 
-# binding.pry
-
-p merge_sort([4, 8, 6, 2, 1, 7, 5, 3])
+array = [22, 31, 96, 84, 21, 200, 1, 29, 489]
+p merge_sort(array)
